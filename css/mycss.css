@@ -1,0 +1,138 @@
+/* все стили *_index относятся к главной странице*/
+body{
+	text-align: center;
+	background-color: #020030;
+	color: #ffffff;
+}
+@font-face{
+	font-family: 'Kulikoff';
+	src: url('Kulikoff.ttf');
+	
+}
+body, header, section, footer, aside, nav, article, figure, figcaption,
+hgroup {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+header {
+	border: 0px solid #00ff00;
+	width: 90%;
+	height: 100px;
+	padding: 10px 40px;
+	text-align: left;
+	font: bold 36px Times New Roman;
+}
+#index{
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	padding: 0px;
+	text-shadow: 2px 2px 2px 8px rgb(0, 0, 0,);
+	z-index: 50;
+}
+ul{
+	position: relative;
+	float:right;
+	border: 0px solid #ff0000;
+	font: 16px verbana, sens-serif;
+	}
+li{
+	display: inline;
+	padding: 5px;
+	margin: 1px;
+}
+#main_idex{
+	border-top: 3px solid #999999;
+	border-bottom: 3px solid #999999;
+	padding: 0px;
+}
+#main{
+	border-top: 3px solid #999999;
+	border-bottom: 3px solid #999999;
+	padding: 0px;
+}
+article{
+	text-align: justify;
+	
+}
+
+.year{
+	border: 0px solid #ffff00;
+	
+	text-align: left;
+	font: 36px verbana, sens-serif;
+	padding: 10px;
+	margin: 5px;
+}
+#player{
+	border: 0px solid #ff9900;
+	text-align: center;
+}
+#media_index {
+	
+	border: 0px solid #6600ff;
+	padding: 0px auto;	
+}
+#media {
+	width: 60%;
+	
+	border: 0px solid #6600ff;
+	padding: 0px auto;	
+}
+#god {
+	margin: 0px 20px;
+	font: bold 36px Kulikoff;
+}
+p{	
+	font-family : "Times New Roman"; 
+	font-size : 100%;
+	font-weight : normal; 
+	margin: 0px 0px 0px 35px;
+	padding: 0px;
+	
+}
+p.center{
+	text-align: center;
+	font-size: 120%;
+	font-weight : normal;
+	margin: 1px;
+	padding: 0px;
+}
+p.bold{	
+	font-weight : bold;	
+}
+h4 {
+	margin: 0px;
+}
+
+.foto{
+	width: 280px;
+	height: 420px;	
+	float: left;
+	
+	margin: 0px 20px 10px 0px;
+}
+#clear {clear: both;}
+
+
+a:link {
+  color: #ebebeb;
+  text-decoration: none;
+  
+ 
+}
+a:visited {
+  color: #ebebeb;
+ 
+}
+a:hover {
+  color: #ffffff;
+ text-shadow: rgba(203, 208, 255, 0.9) 6px 4px 6px;
+}
+#test-shadow{
+	font-size: 150%;
+	padding: 5px;
+	text-shadow: rgba(255,255,255, 0.9) 5px 3px 7px;
+	box-shadow: rgb(10,10,100) 15px 15px 10px;
+}
