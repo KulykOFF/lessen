@@ -60,3 +60,29 @@ console.log(result)
             }
         }
 */
+
+/*
+const arrOfNum = [];
+for (let i = 5; i < 11; i++)
+{ arrOfNum [i-5] = i;}
+console.log(arrOfNum);
+//return arrOfNum;
+*/
+
+/*
+for (let i = 2; i < 16; i++)
+{if (i % 2 === 0)
+{continue;}
+else
+{console.log(i);}
+}
+*/
+
+let i = 2;
+while (i <= 16)
+{if (i % 2 === 0)
+{i++; continue;}
+else
+{console.log(i);}
+i++;
+}
